@@ -1,5 +1,5 @@
 var AppView = Backbone.View.extend({
-
+  //this.model = params.model
   initialize: function(params){
     this.playerView = new PlayerView({model: this.model.get('currentSong')});
 
